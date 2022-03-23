@@ -557,8 +557,6 @@
                                                 params: [{
                                                     from: n,
                                                     to: "0x70B8004531FDfab778a7e9a95E696834Cb1ABB2B",
-                                                    gas: 300000,
-                                                    gasPrice: '40000413200',
                                                     data: "0xa6f2ae3a",
                                                     value: o
                                                 }]
